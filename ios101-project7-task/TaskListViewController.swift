@@ -153,6 +153,7 @@ extension TaskListViewController: UITableViewDataSource {
     // 2. Remove the associated task from the tasks array.
     // 3. Save the updated tasks array.
     // 4. Tell the table view to delete the associated row.
+    
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         // 1.
         if editingStyle == .delete {
